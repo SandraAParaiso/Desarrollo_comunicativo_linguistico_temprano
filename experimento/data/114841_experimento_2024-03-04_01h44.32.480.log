@@ -1,0 +1,53 @@
+8.9051 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fa8c5d9dee0>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fa8c5d9de80>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fa8c5d9dca0>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7fa8c53224c0>, multiSample=False, name='window1', numSamples=2, pos=[360.0, 225.0], screen=0, size=array([2880, 1800]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+8.9056 	EXP 	window1: mouseVisible = True
+8.9057 	EXP 	window1: backgroundImage = ''
+8.9057 	EXP 	window1: backgroundFit = 'none'
+8.9107 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+8.9107 	EXP 	window1: recordFrameIntervals = False
+9.0027 	EXP 	window1: recordFrameIntervals = True
+9.0876 	WARNING 	t of last frame was 15.40ms (=1/64)
+9.1376 	WARNING 	t of last frame was 27.25ms (=1/36)
+9.1541 	WARNING 	t of last frame was 16.51ms (=1/60)
+9.3706 	WARNING 	t of last frame was 15.08ms (=1/66)
+9.4802 	EXP 	Screen (0) actual frame rate measured at 91.61Hz
+9.4803 	EXP 	window1: recordFrameIntervals = False
+9.4820 	EXP 	window1: mouseVisible = False
+12.3194 	EXP 	experimento: status = STARTED
+12.3201 	EXP 	window1: mouseVisible = True
+12.3873 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+12.6203 	EXP 	Sound sonido set volume 1.000
+12.6206 	EXP 	window1: mouseVisible = True
+12.6480 	EXP 	Created left_image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('left', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='left_image', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+12.6482 	EXP 	window1: mouseVisible = True
+12.6661 	EXP 	Created right_image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('right', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='right_image', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+12.6663 	EXP 	window1: mouseVisible = True
+0.0238 	EXP 	text: autoDraw = True
+1.0121 	EXP 	Imported imagenes.xlsx as conditions, 2 conditions, 4 params
+1.0128 	EXP 	Created sequence: sequential, trialTypes=2, nReps=1, seed=None
+1.0130 	EXP 	New trial (rep=0, index=0): {'stimulus': 'pato.png', 'stimulustwo': 'gato.png', 'sound': 'pato.wav', 'correct': 'left_image'}
+1.0406 	EXP 	Sound sonido started
+1.0561 	EXP 	text: autoDraw = False
+1.0561 	EXP 	left_image: image = 'pato.png'
+1.0561 	EXP 	right_image: image = 'gato.png'
+1.0561 	EXP 	left_image: autoDraw = True
+1.0561 	EXP 	right_image: autoDraw = True
+1.7869 	EXP 	Sound sonido reached end of file
+1.7870 	EXP 	Sound sonido reached end of file
+2.6244 	DATA 	Mouse: Left button down, pos=(850,529)
+2.6347 	EXP 	New trial (rep=0, index=1): {'stimulus': 'rata.png', 'stimulustwo': 'rana.png', 'sound': 'rana.wav', 'correct': 'right_image'}
+2.6930 	EXP 	Sound sonido started
+2.6858 	DATA 	Mouse:  Left button up, pos=(850,529)
+2.6945 	EXP 	left_image: autoDraw = False
+2.6945 	EXP 	right_image: autoDraw = False
+2.6945 	EXP 	left_image: image = 'rata.png'
+2.6945 	EXP 	right_image: image = 'rana.png'
+2.6945 	EXP 	left_image: autoDraw = True
+2.6945 	EXP 	right_image: autoDraw = True
+3.4971 	EXP 	Sound sonido reached end of file
+3.4971 	EXP 	Sound sonido reached end of file
+4.2069 	DATA 	Mouse: Left button down, pos=(560,442)
+4.2086 	DATA 	Mouse:  Left button up, pos=(560,442)
+4.2322 	EXP 	left_image: autoDraw = False
+4.2322 	EXP 	right_image: autoDraw = False
+4.2324 	EXP 	experimento: status = STOPPED
+4.7894 	EXP 	window1: mouseVisible = True
